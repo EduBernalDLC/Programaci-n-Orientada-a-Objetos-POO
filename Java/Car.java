@@ -1,7 +1,7 @@
 class Car{
-    Integer id;
-    String license;
-    Account driver;
+    private Integer id;
+    private license;
+    private driver;
     private Integer passegenger;
 
     public Car(String license, Account driver){//Dentro del paréntesis parametros obligatorios para crear un objeto del tipo car
@@ -29,7 +29,6 @@ class Car{
         else{
             System.out.Println("Necesitas asignar 4 pasajeros");
         }//Fin if else
-        
     }//Fin setPassenger
 
 }//fin clase
