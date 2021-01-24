@@ -3,9 +3,9 @@ class main{
 
         System.out.println("Hola mundo");
 
-        Car car= new Car("AMQ123", new Account("Andres Herrera", "AND123"));
-        car.passegenger= 4;
-        car.printDataCar();
+        UberX uberX= new Car("AMQ123", new Account("Andres Herrera", "AND123"));
+        uberX.setPassenger(4);
+        uberX.printDataCar();
 
         Car2 car2= new Car("QWE567", new Account("Andrea Herrera", "ANDA876"));
         car2.passegenger= 3;
