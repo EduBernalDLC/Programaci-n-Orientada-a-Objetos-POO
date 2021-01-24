@@ -1,17 +1,19 @@
 <?php
 
-    class UberX extends Car{
-        public $brand;
-        public $model;
+    require_once('car.php');
 
-        public function __construct($license, $driver, $brand, $model){
+        class UberX extends Car{
+            public $brand;
+            public $model;
 
-            parent::__construct($license, $driver);//Esto equivale al súper de Java
+            public function __construct($license, $driver, $brand, $model){
 
-            $this->brand= $brand;
-            $this->model= $model;
-        }//Fin función constructor
+                parent::__construct($license, $driver);//Esto equivale al súper de Java
 
-    }//Fin herencia
+                $this->brand= $brand;
+                $this->model= $model;
+            }//Fin función constructor
+
+        }//Fin herencia
 
 ?>
